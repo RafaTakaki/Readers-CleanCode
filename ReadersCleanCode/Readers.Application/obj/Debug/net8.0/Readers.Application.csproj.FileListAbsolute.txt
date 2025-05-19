@@ -1,0 +1,15 @@
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\bin\Debug\net8.0\Readers.Application.deps.json
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\bin\Debug\net8.0\Readers.Application.dll
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\bin\Debug\net8.0\Readers.Application.pdb
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\bin\Debug\net8.0\Readers.Domain.dll
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\bin\Debug\net8.0\Readers.Domain.pdb
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\Readers.Application.csproj.AssemblyReference.cache
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\Readers.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\Readers.Application.AssemblyInfoInputs.cache
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\Readers.Application.AssemblyInfo.cs
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\Readers.Application.csproj.CoreCompileInputs.cache
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\Readers..20B751F1.Up2Date
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\Readers.Application.dll
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\refint\Readers.Application.dll
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\Readers.Application.pdb
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Application\obj\Debug\net8.0\ref\Readers.Application.dll
