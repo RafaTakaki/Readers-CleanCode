@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.UnitTest\\Readers.UnitTest.csproj": {}
+    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.UnitTest\\Readers.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.UnitTest\\Readers.UnitTest.csproj": {
+    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.UnitTest\\Readers.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.UnitTest\\Readers.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.UnitTest\\Readers.UnitTest.csproj",
         "projectName": "Readers.UnitTest",
-        "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.UnitTest\\Readers.UnitTest.csproj",
+        "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.UnitTest\\Readers.UnitTest.csproj",
         "packagesPath": "C:\\Users\\rltk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rltk\\AppData\\Roaming\\NuGet\\NuGet.Config"

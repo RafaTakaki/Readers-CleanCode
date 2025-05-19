@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Readers.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73560402b18ea453fd825a8139acac101bac6ba9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Readers.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Readers.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

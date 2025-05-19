@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {}
+    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {
+    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
         "projectName": "Readers.Domain",
-        "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
+        "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
         "packagesPath": "C:\\Users\\rltk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\ReadersCleanCode\\Readers.Domain\\obj\\",
+        "outputPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rltk\\AppData\\Roaming\\NuGet\\NuGet.Config"
