@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "ubc3yoPWXD89JHQxdu8O0gz2dYsvdTz1SRxy9tzJ/kk=",
+  "Hash": "0NBvKP0Dfn3hERoD+Zwmz0sahOzZWnGJpqSv0T0GM8o=",
   "Source": "Readers.WebApi",
   "BasePath": "_content/Readers.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
