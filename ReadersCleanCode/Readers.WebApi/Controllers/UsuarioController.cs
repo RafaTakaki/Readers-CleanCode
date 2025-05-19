@@ -6,6 +6,7 @@ using MediatR;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Readers.Application.UseCases.UsuarioUseCases.CreateUser;
+using Readers.Application.UseCases.UsuarioUseCases.Login;
 
 namespace Readers.WebApi.Controllers
 {
@@ -26,8 +27,10 @@ namespace Readers.WebApi.Controllers
             var usuario = await _mediator.Send(request);
             return Ok(usuario);
         }
+
+
         [HttpPost("login")]
-        public async Task<IActionResult> Login(LoginRequest request)
+        public async Task<IActionResult> Login([FromBody]LoginRequest request)
         {
             var usuario = await _mediator.Send(request);
             return Ok(usuario);

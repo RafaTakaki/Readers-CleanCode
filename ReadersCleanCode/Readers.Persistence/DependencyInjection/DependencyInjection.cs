@@ -2,6 +2,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using Readers.Application.Services;
 using Readers.Domain.Interface;
 using Readers.Persistence.Repositories;
 using Readers.Persistence.Settings;
@@ -29,6 +30,8 @@ namespace Readers.Persistence.DependencyInjection
 
             // Registre seus repositórios aqui
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IGerenciadorTokenService, GerenciadorTokenService>();
+
 
             return services;
         }
