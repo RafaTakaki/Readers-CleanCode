@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\Readers.Persistence.csproj": {}
+    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\Readers.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj": {
+    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj",
+        "projectUniqueName": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj",
         "projectName": "Readers.Application",
-        "projectPath": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj",
-        "packagesPath": "C:\\Users\\ctca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\obj\\",
+        "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj",
+        "packagesPath": "C:\\Users\\rltk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ctca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\rltk\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {
-                "projectPath": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj"
+              "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {
+                "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj"
               }
             }
           }
@@ -41,8 +41,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -89,21 +88,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.106/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {
+    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
         "projectName": "Readers.Domain",
-        "projectPath": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
-        "packagesPath": "C:\\Users\\ctca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
+        "packagesPath": "C:\\Users\\rltk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ctca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\rltk\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -126,8 +125,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -148,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.106/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\Readers.Persistence.csproj": {
+    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\Readers.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\Readers.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\Readers.Persistence.csproj",
         "projectName": "Readers.Persistence",
-        "projectPath": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\Readers.Persistence.csproj",
-        "packagesPath": "C:\\Users\\ctca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\Readers.Persistence.csproj",
+        "packagesPath": "C:\\Users\\rltk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ctca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\rltk\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -174,8 +172,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj": {
-                "projectPath": "C:\\Users\\ctca\\My Private Documents\\Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj"
+              "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj": {
+                "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Application\\Readers.Application.csproj"
               }
             }
           }
@@ -189,8 +187,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -237,7 +234,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.106/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
