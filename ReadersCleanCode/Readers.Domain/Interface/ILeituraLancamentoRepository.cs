@@ -9,6 +9,9 @@ namespace Readers.Domain.Interface
     public interface ILeituraLancamentoRepository
     {
         Task<bool> LancarLeituraTempo(LeituraLancamento leituraLancamento);
+        Task<int> BuscarTotalLeituraMesId(string IdUsuario);
+
+        // Task<List<RankingLeituraDTO>> ObterRankingLeituraMensal();
 
     }
 }

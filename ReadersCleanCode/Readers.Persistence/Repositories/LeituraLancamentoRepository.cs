@@ -16,6 +16,7 @@ namespace Readers.Persistence.Repositories
             _leituraLancamentoCollection = database.GetCollection<LeituraLancamento>("LeituraLancamento");
         }
 
+
         public async Task<bool> LancarLeituraTempo(LeituraLancamento leituraLancamento)
         {
             try
@@ -27,6 +28,18 @@ namespace Readers.Persistence.Repositories
             {
                 return false;
             }
+        }
+        public async Task<int> BuscarTotalLeituraMesId(string IdUsuario)
+        {
+            var filtro = Builders<LeituraLancamento>.Filter.And(
+        Builders<LeituraLancamento>.Filter.Eq(x => x.UsuarioId, IdUsuario),
+        Builders<LeituraLancamento>.Filter.Gte(x => x.DataLancamento, new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1)),
+        Builders<LeituraLancamento>.Filter.Lt(x => x.DataLancamento, new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1).AddMonths(1))
+    );
+
+            var resultados = await _leituraLancamentoCollection.Find(filtro).ToListAsync();
+
+            return resultados.Sum(x => x.TempoMinutos);
         }
     }
 
