@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Readers.Domain.Entities;
@@ -21,6 +16,7 @@ namespace Readers.Application.Services
         {
             _configuration = configuration;
         }
+
 
         public async Task<string> GerarToken(Usuario usuario)
         {
@@ -53,6 +49,25 @@ namespace Readers.Application.Services
             catch (Exception ex)
             {
                 throw new Exception("Erro ao gerar o token", ex);
+            }
+        }
+
+
+        public async Task<string> BuscarGuidToken(string token)
+        {
+            try
+            {
+                var handler = new JwtSecurityTokenHandler();
+                var jwtToken = handler.ReadJwtToken(token);
+                var userIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "sub").Value;
+                var idString = userIdClaim.Replace("id: ", "").Trim();
+
+                return idString;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao buscar o id do token: " + ex.Message);
             }
         }
 
