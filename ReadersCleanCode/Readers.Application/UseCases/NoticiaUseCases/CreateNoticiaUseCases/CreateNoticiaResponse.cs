@@ -3,22 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Readers.Models
+namespace Readers.Application.UseCases.NoticiaUseCases.CreateNoticiaUseCases
 {
-    public class Noticia
+    public class CreateNoticiaResponse
     {
-        public string Id { get; init; }
+        public string Id { get; set; }
         public string Titulo { get; set; }
         public string Descricao { get; set; }
         public DateTime DataPublicacao { get; set; }
-
-
-        public Noticia(string titulo, string descricao)
+        public CreateNoticiaResponse(string id, string titulo, string descricao, DateTime dataPublicacao)
         {
-            Id = Guid.NewGuid().ToString();
+            Id = id;
             Titulo = titulo;
             Descricao = descricao;
-            DataPublicacao = DateTime.UtcNow;
+            DataPublicacao = dataPublicacao;
         }
+
     }
 }
