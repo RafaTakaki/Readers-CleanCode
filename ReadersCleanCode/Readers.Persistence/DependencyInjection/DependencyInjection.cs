@@ -31,7 +31,8 @@ namespace Readers.Persistence.DependencyInjection
             // Registre seus repositórios aqui
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IGerenciadorTokenService, GerenciadorTokenService>();
-            services.AddScoped<INoticiaRepository, NoticiaRepository>();
+            services.AddScoped<ILeituraLancamentoRepository, LeituraLancamentoRepository>();
+
 
             return services;
         }
