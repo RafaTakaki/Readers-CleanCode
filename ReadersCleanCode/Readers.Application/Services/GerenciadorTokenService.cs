@@ -22,6 +22,7 @@ namespace Readers.Application.Services
             _configuration = configuration;
         }
 
+
         public async Task<string> GerarToken(Usuario usuario)
         {
             try
@@ -53,6 +54,25 @@ namespace Readers.Application.Services
             catch (Exception ex)
             {
                 throw new Exception("Erro ao gerar o token", ex);
+            }
+        }
+
+
+        public async Task<string> BuscarGuidToken(string token)
+        {
+            try
+            {
+                var handler = new JwtSecurityTokenHandler();
+                var jwtToken = handler.ReadJwtToken(token);
+                var userIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "sub").Value;
+                var idString = userIdClaim.Replace("id: ", "").Trim();
+
+                return idString;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao buscar o id do token: " + ex.Message);
             }
         }
 

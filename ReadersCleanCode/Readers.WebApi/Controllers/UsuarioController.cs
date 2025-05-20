@@ -30,8 +30,9 @@ namespace Readers.WebApi.Controllers
 
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody]UsuarioLoginRequest request)
+        public async Task<IActionResult> Login([FromBody] UsuarioLoginRequest request)
         {
+
             var usuario = await _mediator.Send(request);
             return Ok(usuario);
         }

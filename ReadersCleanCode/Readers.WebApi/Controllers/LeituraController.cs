@@ -1,0 +1,30 @@
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Readers.Application.UseCases.UsuarioUseCases.LancarLeituraTempo;
+using Readers.Domain.Interface;
+
+namespace Readers.WebApi.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class LeituraController : ControllerBase
+    {
+        IMediator _mediator;
+
+        public LeituraController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+
+        [HttpPost("TempoLeitura")]
+        [Authorize]
+        public async Task<IActionResult> LancarLeituraTempo(LancarLeituraTempoRequest request)
+        {
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "").Trim();
+            request.Token = token;
+            var resultado = await _mediator.Send(request);
+            return Ok(resultado);
+        }
+    }
+}
