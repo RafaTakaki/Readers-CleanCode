@@ -1,0 +1,81 @@
+# Build output
+bin/
+obj/
+
+# Rider IDE
+.idea/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# Compiled files
+*.dll
+*.exe
+*.pdb
+*.app
+*.apk
+*.aab
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of the global packages folder caching, but
+# if you have local packages in your solution folder you may want to keep it.
+packages/
+
+# Others
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+
+# Publish output
+publish/
+
+# Resharper
+_ReSharper*/
+
+# DotCover
+*.dotCover
+
+# Rider
+.idea/
+
+# User-specific files
+*.user
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Azure Pipelines
+.vscode/
+
+# Test results
+TestResults/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+
+# NuGet
+.nuget/
+
+# Dotnet tools
+.toolstarget/
+
+# Microsoft Build
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+ 

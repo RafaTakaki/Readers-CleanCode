@@ -16,18 +16,18 @@ namespace Readers.Application.UseCases.UsuarioUseCases.Login
             _gerenciadorTokenService = gerenciadorTokenService;
         }
 
-        public Task<UsuarioLoginResponse> Handle(UsuarioLoginRequest request, CancellationToken cancellationToken)
+        public async Task<UsuarioLoginResponse> Handle(UsuarioLoginRequest request, CancellationToken cancellationToken)
         {
             var usuario = _usuarioRepository.ValidarEmail(request.Email).Result;
             if (usuario.Senha == request.Senha)
             {
-                var token = _gerenciadorTokenService.GerarToken(usuario);
-                return Task.FromResult(new UsuarioLoginResponse
+                var token = await _gerenciadorTokenService.GerarToken(usuario);
+                return new UsuarioLoginResponse
                 {
                     Id = usuario.Id,
                     Nome = usuario.Nome,
-                    Token = token.ToString()
-                });
+                    Token = token
+                };
             }
             throw new Exception("Senha inválida");
         }
