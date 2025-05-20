@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Readers.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+699183a4e2a24270a2f1fe84bbe14abe6f5a0dca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53ca788166eb8e5367ca07546f1770c7e704a08f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Readers.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Readers.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
