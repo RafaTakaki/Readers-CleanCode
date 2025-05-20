@@ -9,6 +9,5 @@ namespace Readers.Domain.Interface
     public interface IGerenciadorTokenService
     {
         Task<string> GerarToken(Usuario usuario);
-        Task<string> BuscarGuidToken(string token);
     }
 }

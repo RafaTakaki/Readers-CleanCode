@@ -33,12 +33,5 @@ namespace Readers.Persistence.Repositories
             var filter = Builders<Usuario>.Filter.Eq(u => u.Email, email);
             return await _usuarios.Find(filter).FirstOrDefaultAsync();
         }
-
-        public async Task<Dictionary<string, string>> BuscarNomesUsuarios(IEnumerable<string> usuariosIds)
-        {
-            var filter = Builders<Usuario>.Filter.In(u => u.Id, usuariosIds.ToList());
-            var usuariosList = await _usuarios.Find(filter).ToListAsync();
-            return usuariosList.ToDictionary(u => u.Id, u => u.Nome);
-        }
     }
 }
