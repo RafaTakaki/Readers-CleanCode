@@ -1,0 +1,72 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Backup & reports
+*.ncrunch*
+*.localhistory
+*.orig
+*.rej
+*.log
+*.tlog
+
+# NUnit
+TestResult.xml
+TestResults/
+
+# VS Test
+.vsTest/
+
+# DotCover
+.idea.DotSettings
+
+# Build logs
+*.log
+
+# Others
+*.cache
+*.pdb
+*.dll
+*.exe
+
+# Local settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# OneDrive (caso seu projeto esteja numa pasta sincronizada)
+*.~*
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
