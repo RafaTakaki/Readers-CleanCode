@@ -21,8 +21,14 @@ namespace Readers.WebApi.Controllers
 
         [HttpPost("TempoLeitura")]
         [Authorize]
-        public async Task<IActionResult> LancarLeituraTempo(LancarLeituraTempoRequest request)
+        public async Task<IActionResult> LancarLeituraTempo(DateTime dataLeitura, int tempoLeitura)
         {
+            var request = new LancarLeituraTempoRequest
+            {
+                DataLeitura = dataLeitura,
+                TempoLeitura = tempoLeitura
+            };
+
             var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "").Trim();
             request.Token = token;
             var resultado = await _mediator.Send(request);
