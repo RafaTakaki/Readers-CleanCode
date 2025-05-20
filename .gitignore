@@ -1,6 +1,9 @@
 # Build results
 bin/
 obj/
+*.dll
+*.pdb
+*.exe
 out/
 
 # User-specific files
