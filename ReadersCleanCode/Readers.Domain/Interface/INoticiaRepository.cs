@@ -10,7 +10,7 @@ namespace Readers.Domain.Interface
     {
         Task<bool> CriarNoticia(Noticia noticia);
         Task<Noticia> PegarNoticia(string id);
-        Task<List<Noticia>> PegarTitulos();
+        Task<List<Noticia>> PegarTodasNoticias();
     
     }
 }

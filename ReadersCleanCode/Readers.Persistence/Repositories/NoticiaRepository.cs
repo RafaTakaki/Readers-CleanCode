@@ -43,7 +43,7 @@ namespace Readers.Persistence.Repositories
             }
         }
 
-        public async Task<List<Noticia>> PegarTitulos()
+        public async Task<List<Noticia>> PegarTodasNoticias()
         {
             try
             {

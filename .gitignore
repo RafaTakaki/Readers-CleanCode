@@ -1,81 +1,75 @@
-# Build output
+# Build results
 bin/
 obj/
-
-# Rider IDE
-.idea/
-
-# Visual Studio
-.vs/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Visual Studio Code
-.vscode/
-
-# Logs
-*.log
-
-# Compiled files
 *.dll
-*.exe
 *.pdb
-*.app
-*.apk
-*.aab
+*.exe
+out/
 
-# NuGet packages
-*.nupkg
-# The packages folder can be ignored because of the global packages folder caching, but
-# if you have local packages in your solution folder you may want to keep it.
-packages/
-
-# Others
-*.cache
-*.dbmdl
-*.dbproj.schemaview
-
-# Publish output
-publish/
-
-# Resharper
-_ReSharper*/
-
-# DotCover
-*.dotCover
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
 
 # Rider
 .idea/
 
-# User-specific files
-*.user
-*.userprefs
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Azure Pipelines
+# VS Code
 .vscode/
 
-# Test results
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Backup & reports
+*.ncrunch*
+*.localhistory
+*.orig
+*.rej
+*.log
+*.tlog
+
+# NUnit
+TestResult.xml
 TestResults/
 
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
-*.swp
+# VS Test
+.vsTest/
 
-# NuGet
+# DotCover
+.idea.DotSettings
+
+# Build logs
+*.log
+
+# Others
+*.cache
+*.pdb
+*.dll
+*.exe
+
+# Local settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# OneDrive (caso seu projeto esteja numa pasta sincronizada)
+*.~*
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
 .nuget/
-
-# Dotnet tools
-.toolstarget/
-
-# Microsoft Build
-*.csproj.nuget.g.props
-*.csproj.nuget.g.targets
- 
