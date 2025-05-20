@@ -10,10 +10,9 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Readers.Domain")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4ede32d0e144eca604e2acce69f8206dcde6ad3")]
+
 [assembly: System.Reflection.AssemblyProductAttribute("Readers.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Readers.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
