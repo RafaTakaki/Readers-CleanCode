@@ -41,6 +41,32 @@ namespace Readers.Persistence.Repositories
 
             return resultados.Sum(x => x.TempoMinutos);
         }
+
+        public async Task<List<(string UsuarioId, int TotalMinutos)>> BuscarRankingLeituraMensal()
+        {
+            var now = DateTime.Now;
+            var inicioMes = new DateTime(now.Year, now.Month, 1);
+            var inicioProximoMes = inicioMes.AddMonths(1);
+
+            var filtro = Builders<LeituraLancamento>.Filter.And(
+                Builders<LeituraLancamento>.Filter.Gte(x => x.DataLancamento, inicioMes),
+                Builders<LeituraLancamento>.Filter.Lt(x => x.DataLancamento, inicioProximoMes)
+            );
+
+            var resultado = await _leituraLancamentoCollection.Aggregate()
+                .Match(filtro)
+                .Group(
+                    x => x.UsuarioId,
+                    g => new
+                    {
+                        UsuarioId = g.Key,
+                        TotalMinutos = g.Sum(x => x.TempoMinutos)
+                    })
+                .SortByDescending(x => x.TotalMinutos)
+                .ToListAsync();
+
+            return resultado.Select(r => (r.UsuarioId, r.TotalMinutos)).ToList();
+        }
     }
 
 }
