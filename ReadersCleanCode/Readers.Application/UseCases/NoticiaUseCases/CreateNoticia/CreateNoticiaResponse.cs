@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Readers.Application.UseCases.NoticiaUseCases.CreateNoticiaUseCases
 {
-    public class CreateNoticiaResponse
+    public sealed record CreateNoticiaResponse
     {
         public string Id { get; set; }
         public string Titulo { get; set; }
