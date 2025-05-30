@@ -11,7 +11,7 @@ namespace Readers.UnitTests.Readers.Domain.Tests.EntitiesTests
             // Arrange
             var nome = "João";
             var email = "joao@email.com";
-            var senha = "123456";
+            var senha = "12345678";
             var apelido = "J";
             var dataNascimento = new DateTime(1990, 1, 1);
             var quatroLetras = "ABCD";
@@ -31,27 +31,41 @@ namespace Readers.UnitTests.Readers.Domain.Tests.EntitiesTests
             Assert.True(usuario.DataCadastro <= DateTime.UtcNow);
         }
 
-        [Theory]
-        [InlineData("")]
-        [InlineData("semarroba.com")]
-        [InlineData("email@")]
-        public void NaoDeveAceitarEmailInvalido(string emailInvalido)
+        [Fact]
+        public void NaoAceitarSenhaVazia()
         {
-            // Assert
             Assert.Throws<ArgumentException>(() =>
-                new Usuario("Nome", emailInvalido, "123456", "apelido", null, "ABCD"));
+                new Usuario("Nome", "teste@email.com", "", "apelido", null, "ABCD"));
         }
 
         [Fact]
-        public void NaoDeveAceitarSenhaCurta()
+        public void NaoAceitarSenhaSemArroba()
+        {
+            Assert.Throws<ArgumentException>(() =>
+                new Usuario("Nome", "teste.email.com", "", "apelido", null, "ABCD"));
+        }
+
+        [Fact]
+        public void NaoAceitarSenhaComMenosDeOitoCaracteres()
+        {
+            Assert.Throws<ArgumentException>(() =>
+                new Usuario("Nome", "teste@email.com", "1234567", "apelido", null, "ABCD"));
+        }
+
+        
+
+
+
+        [Theory]
+        [InlineData("")]
+        [InlineData("12345")]
+        [InlineData("1234567")]
+        public void NaoDeveAceitarSenhaInvalida(string senhaInvalida)
         {
             // Assert
             Assert.Throws<ArgumentException>(() =>
-                new Usuario("Nome", "teste@email.com", "123", "apelido", null, "ABCD"));
+                new Usuario("Nome", "teste@email.com", senhaInvalida, "apelido", null, "ABCD"));
         }
-
-
-
 
 
     }

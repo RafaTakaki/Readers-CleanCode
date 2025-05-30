@@ -33,3 +33,8 @@ C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Re
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\refint\Readers.Persistence.dll
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.pdb
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\ref\Readers.Persistence.dll
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\bin\Debug\net8.0\Readers.Persistence.deps.json
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.AssemblyInfoInputs.cache
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.AssemblyInfo.cs
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers..59C504B5.Up2Date

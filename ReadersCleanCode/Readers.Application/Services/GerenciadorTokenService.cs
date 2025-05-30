@@ -34,7 +34,8 @@ namespace Readers.Application.Services
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             };
 
-                var tempoDeExpiracaoInMinutes = jwtSettings.GetValue<int>("ExpirationTimeInMinutes");
+                var tempoDeExpiracaoInMinutes = int.Parse(jwtSettings["ExpirationTimeInMinutes"] ?? "30");
+
 
                 var token = new JwtSecurityToken(
                     issuer: jwtSettings["Issuer"],
@@ -67,7 +68,7 @@ namespace Readers.Application.Services
             }
             catch (Exception ex)
             {
-                throw new Exception("Erro ao buscar o id do token: " + ex.Message);
+                return null; // Retorna null se o token for inválido ou ocorrer um erro);
             }
         }
 
