@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Readers.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4288165bdd18f1976f432124ba11b1e39d32b3cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a2b4d14489863c475f09770e54b8af7e3f59dd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Readers.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Readers.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

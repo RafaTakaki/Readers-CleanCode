@@ -4,7 +4,7 @@ namespace Readers.Domain.Entities
 {
     public class Usuario
     {
-        
+
         public string Id { get; set; }
         public string Nome { get; set; }
         public string Email { get; private set; }
@@ -33,7 +33,9 @@ namespace Readers.Domain.Entities
 
         public void CadastroEmail(string email)
         {
-            if (!email.Contains("@")) throw new ArgumentException("Email inválido");
+            if (string.IsNullOrWhiteSpace(email) || !System.Text.RegularExpressions.Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                throw new ArgumentException("Email inválido");
+
             Email = email;
         }
 
@@ -46,7 +48,7 @@ namespace Readers.Domain.Entities
         public void CadastroSenha(string senha)
         {
             if (string.IsNullOrWhiteSpace(senha)) throw new ArgumentException("Senha inválida");
-            if (senha.Length < 6) throw new ArgumentException("Senha Deve contem no mínimo 6 caracteres");
+            if (senha.Length < 8) throw new ArgumentException("Senha Deve contem no mínimo 6 caracteres");
             Senha = senha;
         }
 

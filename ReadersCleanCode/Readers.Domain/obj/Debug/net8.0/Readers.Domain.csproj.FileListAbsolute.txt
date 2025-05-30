@@ -9,18 +9,6 @@ C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\R
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\refint\Readers.Domain.dll
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.pdb
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\ref\Readers.Domain.dll
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.deps.json
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.dll
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.pdb
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.AssemblyInfoInputs.cache
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.AssemblyInfo.cs
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.csproj.CoreCompileInputs.cache
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.sourcelink.json
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.dll
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\refint\Readers.Domain.dll
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.pdb
-C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\ref\Readers.Domain.dll
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.deps.json
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.dll
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.pdb
@@ -33,3 +21,7 @@ C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Re
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\refint\Readers.Domain.dll
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.pdb
 C:\Users\ctca\My Private Documents\Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\ref\Readers.Domain.dll
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.deps.json
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.AssemblyInfoInputs.cache
+C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.AssemblyInfo.cs
