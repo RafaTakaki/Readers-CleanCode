@@ -18,7 +18,7 @@ namespace Readers.Domain.Entities.GymRats
         public TipoMetaLeitura TipoMeta { get; set; }
         public int ValorMeta { get; set; }
 
-        public bool EhDesafioEmGrupo { get; set; }
+        public bool EhDesafioPublico { get; set; }
 
         public List<ParticipanteDesafio> Participantes { get; set; } = new();
     }
