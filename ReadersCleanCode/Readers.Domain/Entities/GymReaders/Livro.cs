@@ -14,6 +14,10 @@ namespace Readers.Models
         public string? Capa { get; set; }
         public string Isbn { get; set; }
         public Tipo EhLivro { get; set; } // Livro ou Quadrinho
+        public string CapaUrl {get; set; } = string.Empty;
+        public int Paginas { get; set; }
+        public DateTime DataPublicacao { get; set; }
+        public string Editora { get; set; } = string.Empty;
 
         public enum Tipo
         {
