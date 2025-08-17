@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {}
+    "C:\\Dev\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {
+    "C:\\Dev\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
+        "projectUniqueName": "C:\\Dev\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
         "projectName": "Readers.Domain",
-        "projectPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
-        "packagesPath": "C:\\Users\\rltk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rltk\\OneDrive - GFT Technologies SE\\Desktop\\GFT files\\Projeto_Readers\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\obj\\",
+        "projectPath": "C:\\Dev\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\Readers.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Readers-CleanCode\\ReadersCleanCode\\Readers.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rltk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

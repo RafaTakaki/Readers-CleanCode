@@ -25,3 +25,15 @@ C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\R
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.AssemblyInfoInputs.cache
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.AssemblyInfo.cs
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.deps.json
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.dll
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\bin\Debug\net8.0\Readers.Domain.pdb
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.AssemblyInfoInputs.cache
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.AssemblyInfo.cs
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.sourcelink.json
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.dll
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\refint\Readers.Domain.dll
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\Readers.Domain.pdb
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Domain\obj\Debug\net8.0\ref\Readers.Domain.dll

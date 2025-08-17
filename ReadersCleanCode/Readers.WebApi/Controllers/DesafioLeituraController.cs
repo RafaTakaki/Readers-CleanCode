@@ -52,36 +52,37 @@ namespace Readers.WebApi.Controllers
             return BadRequest("Não implementado ainda");
         }
 
-        [HttpPut("AtualizarDesafioLeitura/{id}")]
-        [Authorize]
-        [SwaggerOperation(
-            Summary = "",
-            Description = "")]
-        public async Task<IActionResult> AtualizarDesafioLeitura([FromRoute] string id, [FromBody] AtualizarDesafioLeituraRequest request)
-        {
-            //Implementar
-            return BadRequest("Não implementado ainda");
-        }
+        // [HttpPut("AtualizarDesafioLeitura/{id}")]
+        // [Authorize]
+        // [SwaggerOperation(
+        //     Summary = "",
+        //     Description = "")]
+        // public async Task<IActionResult> AtualizarDesafioLeitura([FromRoute] string id, [FromBody] AtualizarDesafioLeituraRequest request)
+        // {
+        //     //Implementar
+        //     return BadRequest("Não implementado ainda");
+        // }
 
-        [HttpPost("ParticiparDesafioLeitura/{id}")]
-        [Authorize]
-        [SwaggerOperation(
-            Summary = "",
-            Description = "")]
-        public async Task<IActionResult> ParticiparDesafioLeitura([FromRoute] string id, [FromBody] ParticiparDesafioLeituraRequest request)
-        {
-            //Implementar
-            return BadRequest("Não implementado ainda");
-        }
-        [HttpPost("LancarComentarioDesafioLeitura/{id}")]
-        [Authorize]
-        [SwaggerOperation(
-            Summary = "",
-            Description = "")]
-        public async Task<IActionResult> LancarComentarioDesafioLeitura([FromRoute] string id, [FromBody] LancarComentarioDesafioLeituraRequest request)
-        {
-            //Implementar
-            return BadRequest("Não implementado ainda");
-        }
+        // [HttpPost("ParticiparDesafioLeitura/{id}")]
+        // [Authorize]
+        // [SwaggerOperation(
+        //     Summary = "",
+        //     Description = "")]
+        // public async Task<IActionResult> ParticiparDesafioLeitura([FromRoute] string id, [FromBody] ParticiparDesafioLeituraRequest request)
+        // {
+        //     //Implementar
+        //     return BadRequest("Não implementado ainda");
+        // }
+
+        // [HttpPost("LancarComentarioDesafioLeitura/{id}")]
+        // [Authorize]
+        // [SwaggerOperation(
+        //     Summary = "",
+        //     Description = "")]
+        // public async Task<IActionResult> LancarComentarioDesafioLeitura([FromRoute] string id, [FromBody] LancarComentarioDesafioLeituraRequest request)
+        // {
+        //     //Implementar
+        //     return BadRequest("Não implementado ainda");
+        // }
     }
 }

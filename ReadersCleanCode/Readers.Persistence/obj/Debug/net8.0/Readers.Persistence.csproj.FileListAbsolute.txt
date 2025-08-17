@@ -38,3 +38,21 @@ C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\R
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.AssemblyInfoInputs.cache
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.AssemblyInfo.cs
 C:\Users\rltk\OneDrive - GFT Technologies SE\Desktop\GFT files\Projeto_Readers\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers..59C504B5.Up2Date
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\bin\Debug\net8.0\Readers.Persistence.deps.json
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\bin\Debug\net8.0\Readers.Persistence.dll
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\bin\Debug\net8.0\Readers.Persistence.pdb
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\bin\Debug\net8.0\Readers.Application.dll
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\bin\Debug\net8.0\Readers.Domain.dll
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\bin\Debug\net8.0\Readers.Application.pdb
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\bin\Debug\net8.0\Readers.Domain.pdb
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.csproj.AssemblyReference.cache
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.AssemblyInfoInputs.cache
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.AssemblyInfo.cs
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.csproj.CoreCompileInputs.cache
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.sourcelink.json
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers..59C504B5.Up2Date
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.dll
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\refint\Readers.Persistence.dll
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\Readers.Persistence.pdb
+C:\Dev\Readers-CleanCode\ReadersCleanCode\Readers.Persistence\obj\Debug\net8.0\ref\Readers.Persistence.dll

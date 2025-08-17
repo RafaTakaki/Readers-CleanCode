@@ -48,7 +48,7 @@ namespace Readers.Domain.Entities
         public void CadastroSenha(string senha)
         {
             if (string.IsNullOrWhiteSpace(senha)) throw new ArgumentException("Senha inválida");
-            if (senha.Length < 8) throw new ArgumentException("Senha Deve contem no mínimo 6 caracteres");
+            if (senha.Length < 6) throw new ArgumentException("Senha Deve contem no mínimo 6 caracteres");
             Senha = senha;
         }
 
@@ -71,8 +71,7 @@ namespace Readers.Domain.Entities
             if (string.IsNullOrWhiteSpace(apelido))
             {
                 apelido = nome;
-            }
-            ;
+            };
             Apelido = apelido;
         }
 
