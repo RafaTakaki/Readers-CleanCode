@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Readers.Application.UseCases.DesafioUseCases.CriarDesafioLeitura
+namespace Readers.Application.UseCases.SessaoUseCases.CriarSessaoLeitura
 {
-    public class CriarDesafioLeituraRequest
+    public class CriarSessaoLeituraValidator
     {
         
     }

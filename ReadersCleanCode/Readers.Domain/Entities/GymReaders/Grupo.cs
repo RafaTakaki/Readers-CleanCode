@@ -10,7 +10,7 @@ namespace Readers.Domain.Entities.GymReaders
         public string Id { get; set; } = Guid.NewGuid().ToString();
         public string Nome { get; set; } = string.Empty;
         public string CriadoPorUsuarioId { get; set; } = string.Empty;
-        public string DesafioLeituraId { get; set; } = string.Empty;
-        public List<string> ParticipanteDesafioIds { get; set; } = new();
+        public string SessaoLeituraId { get; set; } = string.Empty;
+        public List<string> ParticipanteSessaoIds { get; set; } = new();
     }
 }

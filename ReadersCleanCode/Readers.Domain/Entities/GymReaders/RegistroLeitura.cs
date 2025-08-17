@@ -15,6 +15,6 @@ namespace Readers.Domain.Entities.GymRats
         public int PaginasLidas { get; set; }
         public int? MinutosLidos { get; set; }
         public DateTime Data { get; set; }
-        public string? DesafioLeituraId { get; set; }
+        public string? SessaoLeituraId { get; set; }
     }
 }

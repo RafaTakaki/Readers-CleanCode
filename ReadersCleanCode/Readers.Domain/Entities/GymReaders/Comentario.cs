@@ -13,7 +13,7 @@ namespace Readers.Domain.Entities.GymReaders
         public string UsuarioId { get; set; } = string.Empty;
 
         public TipoComentarioAlvo TipoAlvo { get; set; }
-        public string AlvoId { get; set; } = string.Empty; // Pode ser o ID de um livro ou desafio
+        public string AlvoId { get; set; } = string.Empty; // Pode ser o ID de um livro ou Sessao
 
         public string Conteudo { get; set; } = string.Empty;
         public DateTime DataPostagem { get; set; } = DateTime.UtcNow;
@@ -22,6 +22,6 @@ namespace Readers.Domain.Entities.GymReaders
     public enum TipoComentarioAlvo
     {
         Livro = 1,
-        Desafio = 2
+        Sessao = 2
     }
 }

@@ -33,6 +33,7 @@ namespace Readers.Persistence.DependencyInjection
             services.AddScoped<IGerenciadorTokenService, GerenciadorTokenService>();
             services.AddScoped<ILeituraLancamentoRepository, LeituraLancamentoRepository>();
             services.AddScoped<INoticiaRepository, NoticiaRepository>();
+            services.AddScoped<ISessaoLeituraRepository, SessaoLeituraRepository>();
 
 
             return services;
