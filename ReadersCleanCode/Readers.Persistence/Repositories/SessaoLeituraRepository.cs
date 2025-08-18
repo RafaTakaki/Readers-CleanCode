@@ -12,6 +12,7 @@ namespace Readers.Persistence.Repositories
             _leituraLancamentoCollection = database.GetCollection<SessaoLeitura>("SessaoLeitura");
         }
 
+
         public async Task<bool> CriarSessaoLeitura(SessaoLeitura sessaoLeitura)
         {
 
@@ -24,7 +25,14 @@ namespace Readers.Persistence.Repositories
             {
                 return false;
             }
-            
+
+        }
+        public async Task<List<SessaoLeitura>> BuscaSessaoAtiva()
+        {
+            var hoje = DateTime.UtcNow;
+            var filtro = Builders<SessaoLeitura>.Filter.Gt(x => x.DataFim, hoje);
+
+            return await _leituraLancamentoCollection.Find(filtro).ToListAsync();
         }
     }
 }

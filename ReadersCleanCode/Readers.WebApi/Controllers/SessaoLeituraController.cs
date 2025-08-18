@@ -1,9 +1,8 @@
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Readers.Application.UseCases.SessaoUseCases.BuscaSessaoAtivaUseCase;
 using Readers.Application.UseCases.SessaoUseCases.CriarSessaoLeitura;
-using Readers.Application.UseCases.SessaoUseCases.DetalhesSessaoLeituraUseCase;
-using Readers.Application.UseCases.SessaoUseCases.ListarSessaosLeituraUsuarioUseCases;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace Readers.WebApi.Controllers
@@ -20,7 +19,7 @@ namespace Readers.WebApi.Controllers
         }
 
         [HttpPost("CriarSessaoLeitura")]
-        // [Authorize]
+        [Authorize]
         [SwaggerOperation(
             Summary = "",
             Description = "")]
@@ -28,7 +27,9 @@ namespace Readers.WebApi.Controllers
         {
             try
             {
-                var sessao = await _mediator.Send(request);
+                var jwtToken = Request.Headers["Authorization"].ToString().Replace("Bearer ", "").Trim();
+                var newRequest = request with { token = jwtToken };
+                var sessao = await _mediator.Send(newRequest);
                 return Ok("Sessao para o livro: " + sessao + " Criado");
             }
             catch
@@ -37,26 +38,15 @@ namespace Readers.WebApi.Controllers
             }
         }
 
-        [HttpGet("ListarSessaosLeituraUsuario")]
-        [Authorize]
+        [HttpGet("BuscaSessaoAtiva")]
+        // [Authorize]
         [SwaggerOperation(
             Summary = "",
             Description = "")]
-        public async Task<IActionResult> ListarSessaosLeituraUsuario([FromQuery] ListarSessaosLeituraUsuarioRequest request)
+        public async Task<IActionResult> BuscaSessaoAtiva(CancellationToken cancellationToken)
         {
-            //Implementar
-            return BadRequest("Não implementado ainda");
-        }
-
-        [HttpGet("DetalhesSessaoLeitura/{id}")]
-        [Authorize]
-        [SwaggerOperation(
-            Summary = "",
-            Description = "")]
-        public async Task<IActionResult> DetalhesSessaoLeitura([FromRoute] string id, [FromQuery] DetalhesSessaoLeituraRequest request)
-        {
-            //Implementar
-            return BadRequest("Não implementado ainda");
+            var result = await _mediator.Send(new BuscaSessaoAtivaRequest(), cancellationToken);
+            return Ok(result);
         }
 
         // [HttpPut("AtualizarSessaoLeitura/{id}")]

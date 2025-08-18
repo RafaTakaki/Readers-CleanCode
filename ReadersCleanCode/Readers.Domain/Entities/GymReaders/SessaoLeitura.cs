@@ -5,7 +5,7 @@ namespace Readers.Domain.Entities.GymRats
     public class SessaoLeitura
     {
 
-        public string IdSessao { get; set; }
+        public string Id { get; set; }
         public string Titulo { get; set; } = string.Empty;
         public string CriadoPorUsuario { get; set; } // implementar para usar a entidade Usuario
         public string Livro { get; set; } //implementar para usar a entidade Livro
@@ -22,7 +22,7 @@ namespace Readers.Domain.Entities.GymRats
 
         public SessaoLeitura(string titulo, string criadoPorUsuario, string livro, DateTime dataInicio, DateTime dataFim, TipoMetaLeitura? tipoMeta, bool ehSessaoPublico, string descricao)
         {
-            IdSessao = Guid.NewGuid().ToString();
+         Id = Guid.NewGuid().ToString();
             Titulo = titulo;
             CriadoPorUsuario = criadoPorUsuario;
             Livro = livro;

@@ -4,6 +4,7 @@ namespace Readers.Domain.Interface
 {
     public interface ISessaoLeituraRepository
     {
-        Task<bool> CriarSessaoLeitura(SessaoLeitura sessaoLeitura);
+        public Task<bool> CriarSessaoLeitura(SessaoLeitura sessaoLeitura);
+        public Task<List<SessaoLeitura>> BuscaSessaoAtiva();
     }
 }

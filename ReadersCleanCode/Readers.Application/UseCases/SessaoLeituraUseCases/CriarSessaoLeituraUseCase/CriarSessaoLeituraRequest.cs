@@ -7,12 +7,12 @@ namespace Readers.Application.UseCases.SessaoUseCases.CriarSessaoLeitura
 {
     public sealed record CriarSessaoLeituraRequest(
         string Titulo,
-        string CriadoPorUsuario,
         string Livro,
         DateTime DataInicio,
         DateTime DataFim,
         TipoMetaLeitura? TipoMeta,
         bool EhSessaoPublico,
-        string Descricao
+        string Descricao,
+        string? token
     ) : IRequest<CriarSessaoLeituraResponse>;
 }

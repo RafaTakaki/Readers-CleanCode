@@ -7,7 +7,7 @@ namespace Readers.Application.UseCases.UsuarioUseCases.Login
 {
     public class UsuarioLoginResponse
     {
-        public string Id { get; set; }
+        public string IdUsuario { get; set; }
         public string Nome { get; set; }
         public string Token { get; set; }
  

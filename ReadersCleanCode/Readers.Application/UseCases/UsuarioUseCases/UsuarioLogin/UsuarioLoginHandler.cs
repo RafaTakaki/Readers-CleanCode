@@ -24,7 +24,7 @@ namespace Readers.Application.UseCases.UsuarioUseCases.Login
                 var token = await _gerenciadorTokenService.GerarToken(usuario);
                 return new UsuarioLoginResponse
                 {
-                    Id = usuario.Id,
+                    IdUsuario = usuario.Id,
                     Nome = usuario.Nome,
                     Token = token
                 };
