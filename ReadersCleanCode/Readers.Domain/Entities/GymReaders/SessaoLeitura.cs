@@ -11,11 +11,8 @@ namespace Readers.Domain.Entities.GymRats
         public string Livro { get; set; } //implementar para usar a entidade Livro
         public DateTime DataInicio { get; set; }
         public DateTime DataFim { get; set; }
-
         public TipoMetaLeitura? TipoMeta { get; set; }
-
         public bool EhSessaoPublico { get; set; }
-
         public List<ParticipanteSessao> Participantes { get; set; } = new();
         public string Descricao { get; set; }
 

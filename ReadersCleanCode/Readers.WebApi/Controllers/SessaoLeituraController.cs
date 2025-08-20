@@ -49,6 +49,19 @@ namespace Readers.WebApi.Controllers
             return Ok(result);
         }
 
+        [HttpPost("ParticiparSessaoLeitura")]
+        [Authorize]
+        [SwaggerOperation(
+            Summary = "",
+            Description = "")]
+        public async Task<IActionResult> ParticiparSessaoLeitura([FromBody] ParticiparSessaoLeituraRequest request)
+        {
+            var jwtToken = Request.Headers["Authorization"].ToString().Replace("Bearer ", "").Trim();
+            var newRequest = request with { token = jwtToken };
+            var sessao = await _mediator.Send(newRequest);
+            return Ok();
+        }
+
         // [HttpPut("AtualizarSessaoLeitura/{id}")]
         // [Authorize]
         // [SwaggerOperation(
@@ -60,16 +73,6 @@ namespace Readers.WebApi.Controllers
         //     return BadRequest("Não implementado ainda");
         // }
 
-        // [HttpPost("ParticiparSessaoLeitura/{id}")]
-        // [Authorize]
-        // [SwaggerOperation(
-        //     Summary = "",
-        //     Description = "")]
-        // public async Task<IActionResult> ParticiparSessaoLeitura([FromRoute] string id, [FromBody] ParticiparSessaoLeituraRequest request)
-        // {
-        //     //Implementar
-        //     return BadRequest("Não implementado ainda");
-        // }
 
         // [HttpPost("LancarComentarioSessaoLeitura/{id}")]
         // [Authorize]
