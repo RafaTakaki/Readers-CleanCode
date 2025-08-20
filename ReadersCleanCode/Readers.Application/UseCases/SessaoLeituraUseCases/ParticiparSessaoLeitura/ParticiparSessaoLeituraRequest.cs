@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using MediatR;
 
 namespace Readers.Application.UseCases.SessaoLeituraUseCases.ParticiparSessaoLeitura
 {
-    public class ParticiparSessaoLeituraRequest
-    {
-        
-    }
+    public sealed record ParticiparSessaoLeituraRequest(    
+        string? Token,
+        string IdSessao
+    ) : IRequest<ParticiparSessaoLeituraResponse>;
 }

@@ -13,7 +13,7 @@ namespace Readers.Domain.Entities.GymRats
         public DateTime DataFim { get; set; }
         public TipoMetaLeitura? TipoMeta { get; set; }
         public bool EhSessaoPublico { get; set; }
-        public List<ParticipanteSessao> Participantes { get; set; } = new();
+        public List<string> Participantes { get; set; } = new();
         public string Descricao { get; set; }
 
 

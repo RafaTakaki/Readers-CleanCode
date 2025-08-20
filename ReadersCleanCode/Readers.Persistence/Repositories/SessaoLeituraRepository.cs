@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using MongoDB.Driver;
 using Readers.Domain.Entities.GymRats;
 using Readers.Domain.Interface;
@@ -33,6 +35,26 @@ namespace Readers.Persistence.Repositories
             var filtro = Builders<SessaoLeitura>.Filter.Gt(x => x.DataFim, hoje);
 
             return await _leituraLancamentoCollection.Find(filtro).ToListAsync();
+        }
+
+        public async Task<bool> ParticiparSessao(string idUsuario, string idSessao)
+        {
+            try
+            {
+                var filter = Builders<SessaoLeitura>.Filter.Eq(s => s.Id, idSessao);
+                var update = Builders<SessaoLeitura>.Update.AddToSet(s => s.Participantes, idUsuario);
+                var result = await _leituraLancamentoCollection.UpdateOneAsync(filter, update);
+
+                if (result.ModifiedCount == 0)
+                {
+                    throw new InvalidOperationException("Usuário já participa desta sessão.");
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
     }
 }

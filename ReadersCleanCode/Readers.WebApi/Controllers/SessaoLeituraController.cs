@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Readers.Application.UseCases.SessaoLeituraUseCases.ParticiparSessaoLeitura;
 using Readers.Application.UseCases.SessaoUseCases.BuscaSessaoAtivaUseCase;
 using Readers.Application.UseCases.SessaoUseCases.CriarSessaoLeitura;
 using Swashbuckle.AspNetCore.Annotations;
@@ -57,7 +58,7 @@ namespace Readers.WebApi.Controllers
         public async Task<IActionResult> ParticiparSessaoLeitura([FromBody] ParticiparSessaoLeituraRequest request)
         {
             var jwtToken = Request.Headers["Authorization"].ToString().Replace("Bearer ", "").Trim();
-            var newRequest = request with { token = jwtToken };
+            var newRequest = request with { Token = jwtToken };
             var sessao = await _mediator.Send(newRequest);
             return Ok();
         }

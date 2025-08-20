@@ -6,5 +6,7 @@ namespace Readers.Domain.Interface
     {
         public Task<bool> CriarSessaoLeitura(SessaoLeitura sessaoLeitura);
         public Task<List<SessaoLeitura>> BuscaSessaoAtiva();
+        Task<bool> ParticiparSessao(string idUsuario, string idSessao);
+
     }
 }
